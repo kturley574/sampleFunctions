@@ -29,7 +29,7 @@ namespace MessageSender.Function
                 .Build();
 
             var environment = config["Environment"];
-            string responseMessage = $"Hello from {environment}";
+            string responseMessage = $"Hello again from {environment}";
 
             return new OkObjectResult(responseMessage);
         }
